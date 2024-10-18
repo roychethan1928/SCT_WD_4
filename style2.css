@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.task-list {
+    margin-bottom: 20px;
+}
+
+#task-list-ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.task-item {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.task-item.completed {
+    text-decoration: line-through;
+}
+
+.add-task {
+    margin-bottom: 20px;
+}
+
+#task-input {
+    width: 70%;
+    height: 30px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#add-task-btn {
+    width: 25%;
+    height: 30px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.edit-task {
+    display: none;
+}
+
+#edit-task-input {
+    width: 70%;
+    height: 30px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#save-task-btn, #cancel-task-btn {
+    width: 25%;
+    height: 30px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#cancel-task-btn {
+    background-color: #ccc;
+}
